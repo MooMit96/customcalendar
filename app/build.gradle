@@ -55,7 +55,7 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 }
-group='com.github.smilekbear@gmail.com'
+group='com.github.mitpublicspace@gmail.com'
 
 kapt {
     correctErrorTypes true
