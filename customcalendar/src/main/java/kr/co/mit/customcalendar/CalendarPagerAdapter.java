@@ -3,12 +3,13 @@ package kr.co.mit.customcalendar;
 import static kr.co.mit.customcalendar.CustomCalendar.SHOW_DEFAULTS;
 
 import android.annotation.SuppressLint;
-import android.support.v4.view.PagerAdapter;
+
 import android.view.View;
 import android.view.ViewGroup;
 
 
 import androidx.annotation.NonNull;
+import androidx.viewpager.widget.PagerAdapter;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

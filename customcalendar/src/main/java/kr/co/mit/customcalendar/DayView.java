@@ -6,6 +6,7 @@ import static com.prolificinteractive.materialcalendarview.MaterialCalendarView.
 
 import static kr.co.mit.customcalendar.CustomCalendar.SHOW_DEFAULTS;
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -131,9 +132,9 @@ public class DayView extends androidx.appcompat.widget.AppCompatCheckedTextView 
         boolean enabled = isInMonth && isInRange && !isDecoratedDisabled;
         super.setEnabled(isInRange && !isDecoratedDisabled);
 
-        boolean showOtherMonths = showOtherMonths(showOtherDates);
-        boolean showOutOfRange = showOutOfRange(showOtherDates) || showOtherMonths;
-        boolean showDecoratedDisabled = showDecoratedDisabled(showOtherDates);
+        @SuppressLint("WrongConstant") boolean showOtherMonths = showOtherMonths(showOtherDates);
+        @SuppressLint("WrongConstant") boolean showOutOfRange = showOutOfRange(showOtherDates) || showOtherMonths;
+        @SuppressLint("WrongConstant") boolean showDecoratedDisabled = showDecoratedDisabled(showOtherDates);
 
         boolean shouldBeVisible = enabled;
 
