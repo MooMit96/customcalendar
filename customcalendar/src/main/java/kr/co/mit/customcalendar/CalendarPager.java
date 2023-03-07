@@ -1,8 +1,10 @@
 package kr.co.mit.customcalendar;
 
 import android.content.Context;
-import android.support.v4.view.BetterViewPager;
+
 import android.view.MotionEvent;
+
+import androidx.core.view.BetterViewPager;
 
 public class CalendarPager extends BetterViewPager {
     private boolean pagingEnabled = true;
