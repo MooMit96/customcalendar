@@ -1,4 +1,5 @@
-안녕하세요 김동현입니다. 아래의 CustomCalendar GuideLine을 참고해주세요.
+※( 현재 SDK 수정중에 있습니다 )
+안녕하세요 김동현입니다. 아래의 CustomCalendar GuideLine을 참고해주세요. 
 
 # Custom Calendar SDK Setting
 
